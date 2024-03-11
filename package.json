@@ -1,0 +1,38 @@
+{
+  "name": "rn-text-custom",
+  "version": "0.0.7",
+  "private": false,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "react-native": "src/index.tsx",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "React Native custom TextView",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangpaisen/TextCustomView.git"
+  },
+  "keywords": [
+    "rn",
+    "react-native"
+  ],
+  "author": "thangpaisen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangpaisen/TextCustomView/issues"
+  },
+  "homepage": "https://github.com/thangpaisen/TextCustomView#readme"
+}
